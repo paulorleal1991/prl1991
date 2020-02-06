@@ -1,0 +1,65 @@
+'___Curso_de_Python___'
+'___Aluno_Paulo_R_Leal___'
+'___Exercicio_013____'
+print('')
+print('_' *40)
+print('Conversor de Temperatura')
+f = float(input ('Digite a Temperatura em Farenheit _F_: \n'))
+tc = (f - 32) / 1.8
+
+print('Prova do resultado se multiplicar 1.8 \n por {} teremos {}'.format(f, tc))
+print('')
+print('#'*40)
+print('Temperatura em Celsius é \n{:*^40}'.format(tc))
+print('#' *40)
+
+import time
+time.sleep(2)
+print('Agua congela em 0′ Celsius ou 32 Farenheit')
+time.sleep(2)
+print('Agua ferve a 100 Celsius ou 212 Farenheit')
+time.sleep(2)
+print('ou seja: ')
+print('-' *40)
+form = str(' C - 0    F - 32')
+print('{:^40}'.format(form))
+form1 = str(' _______ = _______')
+print('{:^40}'.format(form1))
+form3 = str('100 - 0   212-32')
+print('{:^40}'.format(form3))
+print('-' *40)
+print('')
+time.sleep(2)
+print('   OU')
+form4 = str('    F - 32')
+print('{:^40}'.format(form4))
+form5 = str(' C = _______')
+print('{:^40}'.format(form5))
+form6 = str('   1,8')
+print('{:^40}'.format(form6))
+print('-' *40)
+print('')
+time.sleep(2)
+print('     OU')
+form7 = str(' F = 1.8 x C + 32')
+print('{:^40}'.format(form7))
+form9 = str(' F = 1.8 x {:.2f} + 32'.format(tc))
+print('{:^40}'.format(form9))
+form10 = str('F = {:.2f}'.format(f))
+print('{:^40}'.format(form10))
+form11 = 9 * tc / 5 + 32
+print(' Ou F = 9 x c / 5 + 32 , \n F = {}'.format(form11))
+print('-' *40)
+print('')
+print('')
+
+time.sleep(2)
+
+print('/' *40)
+print('-' *40)
+print('Paulo R Leal 2020 02 06')
+print('paulorleal011291@hotmail.com')
+print('-' *40)
+print('/' *40)
+
+
